@@ -1,7 +1,7 @@
 from scapy.all import *
 
 
-packets = sniff(filter = "icmp", count = 100,timeout = 5, iface = "enp0s3")
+packets = sniff(filter = "icmp", count = 100,timeout = 5)
 
 for pkt in packets:
   
