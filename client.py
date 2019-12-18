@@ -61,7 +61,7 @@ if(c == 1):
 if(c == 2):
     filename = decoder(s)
     print(filename)
-    result = re.sub(r'{}', filename, 'cd.>{}.txt')
+    result = re.sub(r'{}', filename, 'cd.>{}')
     print(result)
     os.system(result)
 #дописываем текст в файл
